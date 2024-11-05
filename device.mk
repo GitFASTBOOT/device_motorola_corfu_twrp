@@ -18,6 +18,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # A/B
+PRODUCT_PACKAGES += \
+    otapreopt_script
+
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
@@ -47,7 +50,6 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Update Engine
 PRODUCT_PACKAGES += \
-    otapreopt_script
     update_engine \
     update_engine_sideload \
     update_verifier
