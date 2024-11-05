@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.0-impl-mock
 
+# MTK PlPath Utils
+PRODUCT_PACKAGES += \
+    mtk_plpath_utils.recovery
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
