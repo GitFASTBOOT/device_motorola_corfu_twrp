@@ -125,3 +125,7 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 # Storage
 RECOVERY_SDCARD_ON_DATA := true
 
+#modules
+TW_LOAD_VENDOR_MODULES := "focaltech_mtk_v2_mmi.ko goodix_mtk_gtx8_gesture_mmi.ko goodix_mtk_gtx8_mmi.ko goodix_mtk_gtx8_ts_tools_mmi.ko goodix_mtk_tee.ko"
+
+
