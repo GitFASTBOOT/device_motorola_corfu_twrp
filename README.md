@@ -27,9 +27,9 @@ Minor checks
 - [X] poweroff
 - [X] battery level
 - [X] temperature
-- [X] encrypted backups
+- [ ] encrypted backups (size error only 32mb)
 - [X] input devices via USB (USB-OTG) - keyboard, mouse and disks
-- [x] USB mass storage export (unable to test)
+- [x] USB mass storage export (tested and it works)
 - [X] set brightness
 - [ ] vibrate
 - [X] screenshot
