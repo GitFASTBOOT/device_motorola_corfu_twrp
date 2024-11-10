@@ -31,6 +31,6 @@ Minor checks
 - [X] input devices via USB (USB-OTG) - keyboard, mouse and disks
 - [x] USB mass storage export (tested and it works)
 - [X] set brightness
-- [ ] vibrate
+- [x] vibrate
 - [X] screenshot
 - [X] partition SD card
