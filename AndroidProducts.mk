@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_corfu.mk
+    $(LOCAL_DIR)/twrp_cofud.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_corfu-eng
+    twrp_cofud-eng
