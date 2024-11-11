@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),corfu)
+ifeq ($(TARGET_DEVICE),cofud)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
