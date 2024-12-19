@@ -7,7 +7,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_corfu.mk
-    $(LOCAL_DIR)/lineage_corfu.mk
+    device/corfu/lineage_corfu.mk
 
 COMMON_LUNCH_CHOICES := \
     twrp_corfu-eng
